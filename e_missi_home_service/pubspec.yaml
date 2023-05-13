@@ -1,0 +1,81 @@
+name: e_missi_home_service
+description: e_missi_home_service.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  logger: ^1.0.0
+  catcher:
+  dio:
+  get_storage: ^2.0.3
+  cached_network_image: ^3.1.0
+  flutter_easyloading: ^3.0.3
+  file_picker:
+    path: ./flutter_file_picker
+  pinput: ^2.2.31
+  auto_size_text: ^3.0.0
+  flutter_html:
+  flutter_rating_bar: ^4.0.1
+  flutter_screenutil:
+  device_info_plus: 8.1.0
+  flutter_spinkit: 5.1.0
+  image_picker: ^0.8.5+3
+  easy_pdf_viewer:
+  image_cropper: ^1.3.1
+  flutter_widget_from_html: 0.8.5
+  carousel_slider:
+  photo_view: ^0.14.0
+  intl: 0.17.0
+  colorful_safe_area:
+  syncfusion_flutter_datepicker: ^20.2.40
+  device_preview: ^1.1.0
+  flutter_holo_date_picker: ^1.1.0
+  syncfusion_flutter_pdfviewer: 20.2.40-beta
+  syncfusion_pdfviewer_platform_interface: 20.2.43-beta
+  fancy_shimmer_image: 2.0.0
+  url_launcher:
+  firebase_auth: ^4.2.3
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.2.1
+  flutter_local_notifications: 9.9.1
+  flutter_inappwebview: ^5.7.2+3
+  package_info_plus:
+  firebase_crashlytics: ^3.0.11
+  upgrader:
+  firebase_phone_auth_handler: ^1.0.7
+  permission_handler: ^10.2.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 400
+

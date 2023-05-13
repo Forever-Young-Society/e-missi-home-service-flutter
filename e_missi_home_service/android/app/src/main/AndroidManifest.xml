@@ -1,0 +1,91 @@
+<!--
+  ~ @copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+  ~ @author     : Shiv Charan Panjeta < shiv@toxsl.com >
+  ~  All Rights Reserved.
+  ~  Proprietary and confidential :  All information contained herein is, and remains
+  ~ the property of ToXSL Technologies Pvt. Ltd. and its partners.
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES"
+        tools:node="remove" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="FYS"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:icon="@mipmap/ic_launcher"
+            android:launchMode="singleTop"
+            android:requestLegacyExternalStorage="true"
+            android:screenOrientation="portrait"
+            android:showWhenLocked="true"
+            android:theme="@style/LaunchTheme"
+            android:turnScreenOn="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI. -->
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/ic_notifications" />
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="com.emissi.homeservice" />
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+</manifest>

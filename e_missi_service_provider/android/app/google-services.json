@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "360742300539",
+    "project_id": "fys-health-monitoring",
+    "storage_bucket": "fys-health-monitoring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360742300539:android:a685b3221bd51b6df4abde",
+        "android_client_info": {
+          "package_name": "com.fys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360742300539-pkrvgp9vs74fk66v0j1qdkouqp26348d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fys",
+            "certificate_hash": "17d7ca514a2d27eb2497d1832ee9a258b0d7e2cd"
+          }
+        },
+        {
+          "client_id": "360742300539-rpc2aonggcniga02urmrgntoc8s3qnqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fys",
+            "certificate_hash": "a5efebabc4afbec91da01c23322742d2ac4e83d7"
+          }
+        },
+        {
+          "client_id": "360742300539-j3etg32bda9634af0njppak4abecfcm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxxPsVYatHET0quWxqEu3pHVE6_aUW9dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360742300539-j3etg32bda9634af0njppak4abecfcm5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360742300539-a3lm7q2do76pseglh05cuob3o1qcoa40.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.missicare.service"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360742300539:android:7b0f9f3ad85cd2c1f4abde",
+        "android_client_info": {
+          "package_name": "com.jom_fys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360742300539-rsko8bbvej0r00juo41k2e8fj3v0gkp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jom_fys",
+            "certificate_hash": "5512445a6bb919a0c7002730d8bf2de5136c7bb7"
+          }
+        },
+        {
+          "client_id": "360742300539-sbp3hudig9g6ouj7c0utf7e6b3i7r9l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jom_fys",
+            "certificate_hash": "a5efebabc4afbec91da01c23322742d2ac4e83d7"
+          }
+        },
+        {
+          "client_id": "360742300539-j3etg32bda9634af0njppak4abecfcm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxxPsVYatHET0quWxqEu3pHVE6_aUW9dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360742300539-j3etg32bda9634af0njppak4abecfcm5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360742300539-a3lm7q2do76pseglh05cuob3o1qcoa40.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.missicare.service"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
